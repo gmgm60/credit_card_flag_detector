@@ -116,6 +116,7 @@ class _AddCreditCardScreenState extends State<AddCreditCardScreen> {
                   ),
                 ),
               ),
+              Text(flag?.type ?? "no type"),
             ],
           ),
         ),
